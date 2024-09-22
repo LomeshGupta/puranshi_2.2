@@ -17,6 +17,7 @@ const AboutSection = () => {
         justifyContent: "space-between",
         alignItems: "center",
         maxWidth: "100%",
+        overflowX: "hidden",
       }}
     >
       {/* Left Section (Text) */}
@@ -94,6 +95,8 @@ const AboutSection = () => {
             transform: "translate(50%, 60%)",
             zIndex: 2, // Slightly behind the first image for layering effect
             display: { xs: "none", md: "block" }, // Hide in mobile
+            maxWidth: "100%", // Prevents horizontal overflow
+            overflow: "hidden",
           }}
         />
       </Box>
