@@ -113,16 +113,21 @@ const Navbar = () => {
     <AppBar position="fixed" sx={{ bgcolor: "white" }} elevation={0}>
       <Toolbar>
         <Box sx={{ display: "flex", alignItems: "center", flexGrow: 1 }}>
-          <img
-            src={logo}
-            alt="Puranshi Logo"
-            style={{ height: "14vh", marginRight: "20px" }}
-          />
-          {!isMobile ? (
-            <Typography variant="h5" sx={{ color: "black" }}>
-              Puranshi Events <br />& Telecommunications
-            </Typography>
-          ) : null}
+          <NavLink to="/" style={{ textDecoration: "none" }}>
+            <img
+              src={logo}
+              alt="Puranshi Logo"
+              style={{ height: "14vh", marginRight: "20px" }}
+            />
+          </NavLink>
+          <NavLink to="/" style={{ textDecoration: "none" }}>
+            {!isMobile ? (
+              <Typography variant="h5" sx={{ color: "black" }}>
+                Puranshi Events <br />
+                and Communications
+              </Typography>
+            ) : null}
+          </NavLink>
         </Box>
         <IconButton
           edge="end"
