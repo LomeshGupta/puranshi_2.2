@@ -165,7 +165,7 @@ const Footer = () => {
             variant="body2"
             sx={{ fontSize: "0.9rem", textAlign: "center", marginTop: "5px" }}
           >
-            Puranshi Events & Telecommunications. <br />© Puranshi 2023. All
+            Puranshi Events and Communications. <br />© Puranshi 2023. All
             rights reserved.
           </Typography>
           <Box display="flex" justifyContent="center" sx={{ marginTop: "5px" }}>
