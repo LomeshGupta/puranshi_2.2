@@ -76,7 +76,7 @@ const ContactFormCard = () => {
         },
       }}
     >
-      <Bubbles />
+      {/* <Bubbles /> */}
       <CardContent sx={{ marginLeft: "5%" }}>
         <Typography variant="h4" gutterBottom>
           Send a{" "}
